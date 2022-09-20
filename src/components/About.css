@@ -1,0 +1,27 @@
+section.about {
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article.about-text {
+  margin-left: 1rem;
+}
+article.about-text h2 {
+  margin-bottom: 1rem;
+}
+
+article.about-text h4 {
+  margin-bottom: 0.3rem;
+}
+
+menu button {
+  background: none;
+  border: none;
+}
+menu.about-menu {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
