@@ -18,6 +18,10 @@ main {
   margin-top: 116px;
 }
 
+main.main-curriculum h2 {
+  text-align: center;
+}
+
 hr {
   width: 95%;
   margin: 0 auto 1rem auto;
