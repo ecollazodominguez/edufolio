@@ -6,7 +6,7 @@ section.skills {
   margin-top: 2.5rem;
 }
 section.skills h3 {
-  width: 100px;
+  min-width: 100px;
 }
 
 ul.skills-content {

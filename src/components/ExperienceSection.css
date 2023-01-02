@@ -7,13 +7,16 @@ section.experience {
 }
 
 section.experience h3 {
-  width: 100px;
+  min-width: 100px;
+  overflow: hidden;
 }
 
 ul.experience-content {
   display: flex;
   flex-direction: column;
   gap: 3rem;
+  overflow: hidden;
+  /* Maybe set wordbreak? */
 }
 
 li.experience-content {
@@ -22,6 +25,7 @@ li.experience-content {
 }
 li.experience-content > p {
   min-width: 110px;
+  overflow: hidden;
   text-align: right;
 }
 
