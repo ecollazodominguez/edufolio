@@ -3,6 +3,8 @@ import { FormContact } from "../components/FormContact";
 import { InfoContact } from "../components/InfoContact";
 import { Navbar } from "../components/Navbar";
 
+import "./Contact.css";
+
 export const Contact = () => {
   return (
     <main className="main-contact">

@@ -1,3 +1,11 @@
-section.section-contact {
+section.info {
   display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@media (min-width: 650px) {
+  section.info p {
+    width: 90%;
+  }
 }
