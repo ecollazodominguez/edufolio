@@ -1,6 +1,7 @@
 footer.index {
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 1rem;
 }
 footer article h4 {
   margin-bottom: 0.5rem;

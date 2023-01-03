@@ -4,9 +4,10 @@ section.skills {
   gap: 10rem;
   margin: 1rem;
   margin-top: 2.5rem;
+  flex: 2;
 }
 section.skills h3 {
-  width: 100px;
+  min-width: 100px;
 }
 
 ul.skills-content {

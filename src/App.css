@@ -10,11 +10,14 @@ html {
 }
 
 body {
-  min-height: 100vh;
+  min-height: 80vh;
   background-color: rgba(207, 205, 205, 0.699);
 }
 
 main {
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
   margin-top: 116px;
 }
 

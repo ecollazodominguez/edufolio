@@ -1,0 +1,19 @@
+section.section-contact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 1rem;
+  flex: 1;
+}
+
+@media (min-width: 650px) {
+  section.section-contact {
+    flex-direction: row;
+    text-align: left;
+    /* check if we need margin bottom if  align items center doesnt work */
+    margin-bottom: 10rem;
+  }
+}
