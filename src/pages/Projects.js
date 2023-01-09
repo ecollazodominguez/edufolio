@@ -43,9 +43,9 @@ export const Projects = () => {
   return (
     <main className="main-projects">
       <Navbar />
-      <section className="projects">
-        <ProjectList projects={projects} />
-      </section>
+
+      <ProjectList projects={projects} />
+      <hr />
       <Footer />
     </main>
   );

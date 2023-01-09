@@ -1,19 +1,23 @@
 //This archive has ProjectList, ProjectContent and ProjectText components.
 
+import "./ProjectList.css";
+
 export const ProjectList = ({ projects }) => {
   return (
-    <ul className="project-list">
-      {projects.map((project) => (
-        <ProjectContent
-          key={project.image}
-          link={project.link}
-          image={project.image}
-          subtitle={project.subtitle}
-          title={project.title}
-          description={project.description}
-        />
-      ))}
-    </ul>
+    <section className="projects">
+      <ul className="project-list">
+        {projects.map((project) => (
+          <ProjectContent
+            key={project.image}
+            link={project.link}
+            image={require("../project-1.gif")} //change this later
+            subtitle={project.subtitle}
+            title={project.title}
+            description={project.description}
+          />
+        ))}
+      </ul>
+    </section>
   );
 };
 
