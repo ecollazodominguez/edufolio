@@ -1,0 +1,106 @@
+section.projects {
+  display: flex;
+  place-content: center;
+  text-align: center;
+}
+
+ul.project-list {
+  display: flex;
+  place-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 8.5rem;
+  width: 95%;
+  height: 100%;
+}
+
+ul.project-list > li:first-child {
+  margin-top: 2rem;
+}
+
+ul.project-list > li:last-child {
+  margin-bottom: 5rem;
+}
+
+ul.project-list > li {
+  list-style-type: none;
+  height: 182px;
+}
+
+/* We make section relative so img can be absolute and we can position the img wherever we want base on the section box */
+section.project-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* In this case position will be 0 which means will be the start position of the relative section (top left corner of section) */
+img.project-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  inset: 0;
+  border-radius: 10px;
+}
+/* With this in mind we can make the article text relative so both img and article overlap.
+If we don't do this text won't display since img is already taking the place. */
+article.project-text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 12px;
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+  border: 4px gray;
+  background-color: lightgray;
+  z-index: 10;
+}
+
+@media (min-width: 600px) {
+  ul.project-list {
+    display: flex;
+    flex-direction: row;
+    place-content: unset;
+    gap: 3rem;
+    justify-content: space-around;
+  }
+  ul.project-list > li {
+    width: 35%;
+    max-width: 570px;
+    height: 250px;
+    max-height: 50%;
+  }
+  ul.project-list > li:first-child {
+    margin-top: 0;
+  }
+
+  ul.project-list > li:last-child {
+    margin-bottom: 4rem;
+  }
+}
+@media (min-width: 1024px) {
+  ul.project-list {
+    display: flex;
+    flex-direction: row;
+    place-content: unset;
+    gap: 7rem;
+    justify-content: center;
+  }
+  article.project-text {
+    position: relative;
+    padding: 12px;
+    width: 100%;
+    opacity: 0;
+    border: 4px gray;
+    background-color: gray;
+    z-index: 10;
+  }
+
+  article.project-text:hover {
+    opacity: 1;
+  }
+}
