@@ -105,4 +105,8 @@ menu button:nth-child(3) {
     width: 125px;
     font-size: 20px;
   }
+
+  menu button:hover {
+    cursor: pointer;
+  }
 }

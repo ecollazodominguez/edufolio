@@ -26,6 +26,10 @@ header button {
   border: none;
 }
 
+header button:hover {
+  cursor: pointer;
+}
+
 nav button {
   font-size: 12px;
 }

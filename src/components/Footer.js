@@ -13,9 +13,14 @@ export const Footer = () => {
       </article>
       <article className="footer-follow">
         <h4>Sígueme</h4>
-        <a href="https://www.linkedin.com/in/eduardo-collazo-a67b731b7/">
-          LinkedIn
-        </a>
+        <img
+          src={require("../linkedin.webp")}
+          alt="linkedin icon"
+          onClick={() =>
+            (window.location.href =
+              "https://www.linkedin.com/in/eduardo-collazo-a67b731b7/")
+          }
+        />
       </article>
     </footer>
   );
