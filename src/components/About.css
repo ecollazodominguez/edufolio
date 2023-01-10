@@ -1,28 +1,112 @@
 section.about {
-  min-height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex: 1;
+  flex-direction: column;
+  text-align: center;
 }
 
 article.about-text {
-  margin-left: 1rem;
+  margin: 0.5rem 1rem;
+  max-width: 500px;
 }
 article.about-text h2 {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  font-size: 30px;
 }
 
 article.about-text h4 {
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.5rem;
+  font-size: 20px;
+}
+
+article.about-text p {
+  font-size: 14px;
+  line-height: 20px;
+  max-width: 400px;
+}
+
+menu.about-menu {
+  margin-top: 1rem;
+  display: flex;
+  place-content: center;
+  gap: 1rem;
+}
+
+section.about img {
+  height: 200px;
+  width: 200px;
+  border-radius: 300px;
+  object-fit: cover;
+  object-position: center;
 }
 
 menu button {
   background: none;
   border: none;
+  height: 90px;
+  width: 90px;
+  border-radius: 300px;
+
+  font-weight: bold;
+  font-size: 14px;
 }
-menu.about-menu {
-  margin-top: 1rem;
-  display: flex;
-  gap: 1rem;
+
+menu button:nth-child(1) {
+  background-color: rgb(255, 176, 30);
+  border: 2px solid rgb(138, 96, 18);
+}
+menu button:nth-child(2) {
+  background-color: rgb(255, 60, 60);
+  border: 2px solid rgb(139, 32, 32);
+}
+menu button:nth-child(3) {
+  background-color: rgb(58, 170, 255);
+  border: 2px solid rgb(32, 99, 149);
+}
+
+@media (min-width: 950px) {
+  section.about {
+    flex-direction: row;
+    text-align: start;
+  }
+
+  section.about img {
+    height: 450px;
+    width: 450px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  article.about-text h2 {
+    font-size: 60px;
+  }
+
+  article.about-text h4 {
+    margin-bottom: 0.5rem;
+    font-size: 24px;
+  }
+
+  article.about-text p {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(50, 47, 47);
+  }
+
+  menu.about-menu {
+    margin-top: 2rem;
+    place-content: unset;
+    gap: 2rem;
+  }
+
+  menu button {
+    height: 125px;
+    width: 125px;
+    font-size: 20px;
+  }
+
+  menu button:hover {
+    cursor: pointer;
+  }
 }

@@ -7,12 +7,10 @@ footer article h4 {
   margin-bottom: 0.5rem;
 }
 
-footer article p {
-  font-size: 0.8rem;
+footer article p,
+footer article a {
+  font-size: 12px;
 }
-
-footer article button {
-  background: none;
-  border: none;
-  display: block;
+footer article img:hover {
+  cursor: pointer;
 }
