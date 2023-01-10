@@ -15,7 +15,9 @@ export const InfoContact = () => {
       </article>
       <article className="contact-follow">
         <h4>LinkedIn</h4>
-        <button>LinkedIn</button>
+        <a href="https://www.linkedin.com/in/eduardo-collazo-a67b731b7/">
+          LinkedIn
+        </a>
       </article>
     </section>
   );

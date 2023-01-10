@@ -10,9 +10,3 @@ footer article h4 {
 footer article p {
   font-size: 0.8rem;
 }
-
-footer article button {
-  background: none;
-  border: none;
-  display: block;
-}

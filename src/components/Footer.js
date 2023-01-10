@@ -13,7 +13,9 @@ export const Footer = () => {
       </article>
       <article className="footer-follow">
         <h4>Sígueme</h4>
-        <button>LinkedIn</button>
+        <a href="https://www.linkedin.com/in/eduardo-collazo-a67b731b7/">
+          LinkedIn
+        </a>
       </article>
     </footer>
   );
