@@ -5,6 +5,21 @@ section.about {
   flex: 1;
   flex-direction: column;
   text-align: center;
+  animation-name: fadeSection;
+  animation-duration: 0.7s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+}
+
+@keyframes fadeSection {
+  0% {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
 
 article.about-text {
@@ -54,16 +69,52 @@ menu button {
 }
 
 menu button:nth-child(1) {
-  background-color: rgb(255, 176, 30);
-  border: 2px solid rgb(138, 96, 18);
+  background-color: rgb(251, 198, 113);
+  border: 2px solid rgb(248, 180, 69);
 }
 menu button:nth-child(2) {
-  background-color: rgb(255, 60, 60);
-  border: 2px solid rgb(139, 32, 32);
+  background-color: rgb(255 182 148);
+  border: 2px solid rgb(252, 160, 117);
+  opacity: 0;
+  animation-name: fadeButton2;
+  animation-duration: 1.5s;
+  animation-timing-function: ease;
+  animation-iteration-count: 1;
+  animation-delay: 0.2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeButton2 {
+  0% {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
 menu button:nth-child(3) {
-  background-color: rgb(58, 170, 255);
-  border: 2px solid rgb(32, 99, 149);
+  background-color: rgb(253 157 145);
+  border: 2px solid rgb(255, 123, 106);
+  animation-name: fadeButton3;
+  opacity: 0;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-iteration-count: 1;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeButton3 {
+  0% {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
 
 @media (min-width: 950px) {
@@ -108,5 +159,6 @@ menu button:nth-child(3) {
 
   menu button:hover {
     cursor: pointer;
+    color: rgb(255, 0, 0);
   }
 }

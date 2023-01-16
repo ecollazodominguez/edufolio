@@ -4,7 +4,47 @@ section.info {
   gap: 1rem;
 }
 
+section.info h2 {
+  margin: 0 auto 1.5rem;
+  width: 90%;
+  max-width: 500px;
+  padding: 0.2rem;
+  background-color: rgb(255 195 157 / 77%);
+  box-shadow: 0 1px 15px 1px rgb(223, 96, 18);
+  border-radius: 5px;
+  font-size: 30px;
+}
+section.info > p {
+  font-size: 18px;
+}
+
+article.contact-phone h4 {
+  margin-top: 1rem;
+}
+
+article.contact-phone h4,
+article.contact-email h4,
+article.contact-follow h4 {
+  font-size: 22px;
+  margin-bottom: 0.5rem;
+}
+
+article.contact-follow > img {
+  height: 40px;
+  border: 2px solid black;
+}
+
+article.contact-follow > img:hover {
+  cursor: pointer;
+}
+
 @media (min-width: 650px) {
+  section.info h2 {
+    margin: 0 0 1.5rem;
+    padding: 0.2rem;
+    width: 190px;
+    font-size: 42px;
+  }
   section.info p {
     width: 90%;
   }

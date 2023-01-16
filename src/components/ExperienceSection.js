@@ -7,7 +7,7 @@ export const ExperienceSection = ({ title, content }) => {
       <ul className="experience-content">
         {content.map((data) => {
           return (
-            <li className="experience-content">
+            <li className="experience-content" key={data.title}>
               <p>{data.date}</p>
               <article className="experience-description">
                 <h4>{data.title}</h4>

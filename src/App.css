@@ -24,6 +24,12 @@ main {
 main.main-curriculum h2 {
   text-align: center;
 }
+main.main-curriculum {
+  align-items: center;
+}
+main.main-curriculum h2 {
+  font-size: 34px;
+}
 
 hr {
   width: 95%;
@@ -33,4 +39,13 @@ hr {
 a {
   text-decoration: none;
   color: black;
+}
+a:hover {
+  color: rgb(242, 173, 62);
+}
+
+@media (min-width: 1024px) {
+  main.main-curriculum h2 {
+    font-size: 42px;
+  }
 }

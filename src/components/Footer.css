@@ -2,6 +2,7 @@ footer.index {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 1rem;
+  align-self: stretch;
 }
 footer article h4 {
   margin-bottom: 0.5rem;
@@ -11,6 +12,7 @@ footer article p,
 footer article a {
   font-size: 12px;
 }
+
 footer article img:hover {
   cursor: pointer;
 }
