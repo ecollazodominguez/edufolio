@@ -12,6 +12,7 @@ section.skills h3 {
   padding: 0.2rem;
   background-color: rgb(255 195 157 / 77%);
   box-shadow: 0 1px 15px 1px rgb(223, 96, 18);
+  border-radius: 5px;
 }
 
 ul.skills-content {
