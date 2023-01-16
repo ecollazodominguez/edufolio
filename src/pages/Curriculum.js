@@ -44,7 +44,7 @@ export const Curriculum = () => {
       <hr />
       <ExperienceSection title="Educación" content={testData2} />
       <hr />
-      <SkillsSection title="Habilidades y experiencia" content={testData3} />
+      <SkillsSection title="Habilidades" content={testData3} />
       <hr />
       <Footer />
     </main>

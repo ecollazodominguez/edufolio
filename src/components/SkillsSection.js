@@ -6,7 +6,11 @@ export const SkillsSection = ({ title, content }) => {
       <h3>{title}</h3>
       <ul className="skills-content">
         {content.map((data) => {
-          return <li className="skills-content">{data.skill}</li>;
+          return (
+            <li className="skills-content" key={data.skill}>
+              {data.skill}
+            </li>
+          );
         })}
       </ul>
     </section>
