@@ -27,6 +27,10 @@ ul.project-list > li {
   height: 182px;
 }
 
+a.project-link:hover {
+  color: black;
+}
+
 /* We make section relative so img can be absolute and we can position the img wherever we want base on the section box */
 section.project-content {
   position: relative;

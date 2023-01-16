@@ -69,12 +69,12 @@ menu button {
 }
 
 menu button:nth-child(1) {
-  background-color: rgb(255, 176, 30);
-  border: 2px solid rgb(138, 96, 18);
+  background-color: rgb(251, 198, 113);
+  border: 2px solid rgb(248, 180, 69);
 }
 menu button:nth-child(2) {
-  background-color: rgb(255, 60, 60);
-  border: 2px solid rgb(139, 32, 32);
+  background-color: rgb(255 182 148);
+  border: 2px solid rgb(252, 160, 117);
   opacity: 0;
   animation-name: fadeButton2;
   animation-duration: 1.5s;
@@ -95,8 +95,8 @@ menu button:nth-child(2) {
   }
 }
 menu button:nth-child(3) {
-  background-color: rgb(58, 170, 255);
-  border: 2px solid rgb(32, 99, 149);
+  background-color: rgb(253 157 145);
+  border: 2px solid rgb(255, 123, 106);
   animation-name: fadeButton3;
   opacity: 0;
   animation-duration: 1s;
@@ -159,5 +159,6 @@ menu button:nth-child(3) {
 
   menu button:hover {
     cursor: pointer;
+    color: rgb(255, 0, 0);
   }
 }

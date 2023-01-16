@@ -40,6 +40,9 @@ a {
   text-decoration: none;
   color: black;
 }
+a:hover {
+  color: rgb(242, 173, 62);
+}
 
 @media (min-width: 1024px) {
   main.main-curriculum h2 {

@@ -12,6 +12,7 @@ footer article p,
 footer article a {
   font-size: 12px;
 }
+
 footer article img:hover {
   cursor: pointer;
 }

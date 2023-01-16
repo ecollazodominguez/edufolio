@@ -28,6 +28,7 @@ header button {
 
 header button:hover {
   cursor: pointer;
+  color: rgb(242, 173, 62);
 }
 
 nav button {

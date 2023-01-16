@@ -48,6 +48,7 @@ input {
 }
 .content > button:hover {
   cursor: pointer;
+  color: rgb(255, 0, 0);
 }
 
 @media (min-width: 650px) {
