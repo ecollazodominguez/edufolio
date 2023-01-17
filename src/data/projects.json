@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Octonews",
+    "subtitle": "REACT web",
+    "description": "Web de noticias colaborativas estilo 'reddit' o 'meneame' donde puedes escribir tu noticia en diferentes categorías.",
+    "image": "octonews.gif",
+    "link": "https://github.com/ecollazodominguez/OctoNews"
+  },
+  {
+    "title": "ViajAntes",
+    "subtitle": "JS web",
+    "description": "Buscador de vuelos urgentes para el día siguiente para 1 persona.",
+    "image": "viajantes.gif",
+    "link": "https://github.com/ecollazodominguez/ViajAntes"
+  },
+  {
+    "title": "PlantWorld",
+    "subtitle": "Android app",
+    "description": "PlantWorld es una aplicación hecha en Kotlin para Android donde gracias a una inteligencia artificial puedes identificar plantas o enfermedades a través de la cámara.",
+    "image": "plantworld.gif",
+    "link": "https://github.com/ecollazodominguez/PlantWorld"
+  },
+  {
+    "title": "MausClicker",
+    "subtitle": "Python desktop app",
+    "description": "MausClicker es un auto clicker que rastrea tu ratón y guarda las coordenadas donde has clickado permitiendo hacer un script y automatizarlo.",
+    "image": "python.gif",
+    "link": "https://github.com/ecollazodominguez/MausClicker"
+  },
+  {
+    "title": "DigiNaut",
+    "subtitle": "Python discord bot",
+    "description": "DigiNaut es un bot de discord que tiene multiples funciones como jugar a minijuegos tipo 3 en raya o trivial, tirar dados, mostrar imágenes de una carpeta de tu PC, etc...",
+    "image": "python.gif",
+    "link": "https://github.com/ecollazodominguez/DigiNaut"
+  }
+]

@@ -14,7 +14,7 @@ export const Footer = () => {
       <article className="footer-follow">
         <h4>Sígueme</h4>
         <img
-          src={require("../linkedin.webp")}
+          src={require("../assets/linkedin-icon.webp")}
           alt="linkedin icon"
           onClick={() =>
             (window.location.href =
