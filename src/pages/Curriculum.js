@@ -4,38 +4,11 @@ import { Navbar } from "../components/Navbar";
 import { SkillsSection } from "../components/SkillsSection";
 
 export const Curriculum = () => {
-  const testData = [
-    {
-      date: "2020 - Presente",
-      title: "Editora",
-      desc: "Párrafo. Haz clic aquí para agregar tu propio texto y edita",
-    },
-    {
-      date: "2018 - 2020",
-      title: "Editora",
-      desc: "lorem ipsum olresakmkasdjglas dsajgkas ladjngsdk sgks kahgjddlda adlf ldfhjdflh ldhj adlf",
-    },
-  ];
+  const testData = require("../data/curriculumData/jobExperience.json");
 
-  const testData2 = [
-    {
-      date: "2015 - 2017",
-      title: "Nombre de la institución | Título de maestría",
-      desc: "Párrafo. Haz clic aquí para agregar tu propio texto y edita",
-    },
-    {
-      date: "2012 - 2015",
-      title: "Nombre de la institución | Título de licenciatura",
-      desc: "lorem ipsum olresakmkasdjglas dsajgkas ladjngsdk sgks kahgjddlda adlf ldfhjdflh ldhj adlf",
-    },
-  ];
+  const testData2 = require("../data/curriculumData/education.json");
 
-  const testData3 = [
-    { skill: "Párrafo. Haz clic aquí para agregar tu propio texto y editar." },
-    { skill: "Párrafo. Haz clic aquí para agregar tu propio texto y editar." },
-    { skill: "Párrafo. Haz clic aquí para agregar tu propio texto y editar." },
-  ];
-
+  const testData3 = require("../data/curriculumData/skills.json");
   return (
     <main className="main-curriculum">
       <Navbar />

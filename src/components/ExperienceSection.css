@@ -32,7 +32,7 @@ li.experience-content {
   gap: 2rem;
 }
 li.experience-content > p {
-  min-width: 110px;
+  min-width: 130px;
   text-align: right;
 }
 
@@ -45,6 +45,9 @@ article.experience-description {
 article.experience-description h4,
 article.experience-description p {
   margin-right: 0.5rem;
+}
+article.experience-description p {
+  line-height: 1.5rem;
 }
 
 @media (min-width: 1024px) {
