@@ -8,9 +8,9 @@ export const ProjectList = ({ projects }) => {
       <ul className="project-list">
         {projects.map((project) => (
           <ProjectContent
-            key={project.image}
+            key={project.title}
             link={project.link}
-            image={require("../project-1.gif")} //change this later
+            image={require(`../assets/${project.image}`)} //change this later
             subtitle={project.subtitle}
             title={project.title}
             description={project.description}

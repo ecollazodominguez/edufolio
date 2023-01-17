@@ -24,11 +24,7 @@ ul.project-list > li:last-child {
 
 ul.project-list > li {
   list-style-type: none;
-  height: 182px;
-}
-
-a.project-link:hover {
-  color: black;
+  height: 225px;
 }
 
 /* We make section relative so img can be absolute and we can position the img wherever we want base on the section box */
@@ -58,10 +54,25 @@ article.project-text {
   padding: 12px;
   height: 100%;
   width: 100%;
-  opacity: 0.8;
-  border: 4px gray;
-  background-color: lightgray;
+  opacity: 0.9;
+  background-color: rgb(217, 217, 217);
   z-index: 10;
+  border-radius: 10px;
+}
+
+.project-subtitle {
+  font-size: 19px;
+  color: #bb0000;
+}
+.project-title {
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 24px;
+}
+
+.project-description {
+  font-size: 17px;
+  color: rgb(36, 36, 36);
 }
 
 @media (min-width: 600px) {
@@ -85,6 +96,35 @@ article.project-text {
   ul.project-list > li:last-child {
     margin-bottom: 4rem;
   }
+
+  .project-subtitle {
+    font-size: 19px;
+    color: #bb0000;
+  }
+  .project-title {
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 24px;
+  }
+
+  .project-description {
+    font-size: 17px;
+    color: rgb(36, 36, 36);
+  }
+
+  .project-subtitle {
+    font-size: 21px;
+    color: #ff0000;
+  }
+  .project-title {
+    font-size: 26px;
+    color: white;
+  }
+
+  .project-description {
+    font-size: 19px;
+    color: rgb(213, 213, 213);
+  }
 }
 @media (min-width: 1024px) {
   ul.project-list {
@@ -95,16 +135,22 @@ article.project-text {
     justify-content: center;
   }
   article.project-text {
-    position: relative;
-    padding: 12px;
-    width: 100%;
     opacity: 0;
-    border: 4px gray;
-    background-color: gray;
-    z-index: 10;
+    background-color: black;
   }
 
   article.project-text:hover {
-    opacity: 1;
+    opacity: 0.8;
+  }
+
+  .project-subtitle {
+    font-size: 23px;
+  }
+  .project-title {
+    font-size: 28px;
+  }
+
+  .project-description {
+    font-size: 21px;
   }
 }

@@ -31,6 +31,16 @@ main.main-curriculum h2 {
   font-size: 34px;
 }
 
+main.main-projects > img {
+  margin: 0 auto 2rem;
+  height: 90px;
+  width: 250px;
+}
+
+main.main-projects > img:hover {
+  cursor: pointer;
+}
+
 hr {
   width: 95%;
   margin: 1.5rem auto;

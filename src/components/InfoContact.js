@@ -16,7 +16,7 @@ export const InfoContact = () => {
       <article className="contact-follow">
         <h4>LinkedIn</h4>
         <img
-          src={require("../linkedin.webp")}
+          src={require("../assets/linkedin-icon.webp")}
           alt="linkedin icon"
           onClick={() =>
             (window.location.href =
