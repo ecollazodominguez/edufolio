@@ -11,7 +11,9 @@ export const InfoContact = () => {
       </article>
       <article className="contact-email">
         <h4>Email</h4>
-        <a href="mailto:email@gemail.com">email@gemail.com</a>
+        <a href="mailto:ecollazodominguez@gmail.com">
+          ecollazodominguez@gmail.com
+        </a>
       </article>
       <article className="contact-follow">
         <h4>LinkedIn</h4>

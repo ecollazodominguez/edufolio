@@ -8,8 +8,8 @@ export const Footer = () => {
         <p>692321415</p>
       </article>
       <article className="footer-email">
-        <h4>Email</h4>
-        <a href="mailto:email@gemail.com">email@gemail.com</a>
+        <h4>Gmail</h4>
+        <a href="mailto:ecollazodominguez@gmail.com">ecollazodominguez</a>
       </article>
       <article className="footer-follow">
         <h4>Sígueme</h4>

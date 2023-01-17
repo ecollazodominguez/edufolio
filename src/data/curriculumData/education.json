@@ -1,0 +1,17 @@
+[
+  {
+    "date": "01/2022 - 06/2022",
+    "title": "FULLSTACK JavaScript WEB",
+    "desc": "Bootcamp HACK A BOSS. (JS, node.JS, REACT, MySQL)"
+  },
+  {
+    "date": "09/2018 - 06/2020",
+    "title": "Técnico superior en Desarrollo de aplicaciones multiplataforma",
+    "desc": "Java, Python, BBDD, Android, XML, Ionic, Angular..."
+  },
+  {
+    "date": "09/2015 - 06/2017",
+    "title": "Técnico en Jardinería y Floristería",
+    "desc": "Mantenimiento de jardines y arreglos florales."
+  }
+]

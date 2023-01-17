@@ -47,12 +47,12 @@ li.skills-content {
   }
 
   ul.skills-content {
-    max-width: 350px;
+    max-width: 470px;
   }
 }
 
 @media (min-width: 1930px) {
   ul.skills-content {
-    max-width: 450px;
+    max-width: 570px;
   }
 }
