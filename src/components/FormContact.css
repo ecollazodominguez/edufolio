@@ -77,6 +77,7 @@ input {
 
   .text > textarea {
     min-height: 125px;
+    font-size: 16px;
   }
   .content > button {
     margin: 0;
@@ -86,7 +87,8 @@ input {
     font-size: 22px;
   }
 
-  input {
+  fieldset > input {
     width: 175px;
+    font-size: 18px;
   }
 }

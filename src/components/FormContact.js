@@ -1,8 +1,24 @@
 import "./FormContact.css";
+import emailjs from "@emailjs/browser";
+import { useRef } from "react";
 
 export const FormContact = () => {
+  const form = useRef();
+
+  //We use EmailJS API to send the mail to myself
+  const sendEmail = async (e) => {
+    e.preventDefault(); // prevents the page from reloading when you hit “Send”
+
+    await emailjs.sendForm(
+      "service_fmg8jae",
+      "template_284npt8",
+      form.current,
+      "Zdyfn-Af_cgaZPmUu"
+    );
+  };
+
   return (
-    <form onSubmit="" className="contact-form">
+    <form ref={form} onSubmit={sendEmail} className="contact-form">
       <fieldset className="fullname">
         <fieldset className="firstname">
           <label htmlFor="firstname">Nombre</label>
