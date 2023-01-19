@@ -1,0 +1,33 @@
+img.languageOptions {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 85px;
+  right: 20px;
+  border-radius: 200px;
+  box-shadow: 0px 0px 3px 1px black;
+  transition: 0.2 transform;
+}
+img.languageOptions:hover {
+  cursor: pointer;
+}
+
+img.languageOptions:active {
+  transform: scale(0.9);
+}
+
+@media (min-width: 700px) {
+  img.languageOptions {
+    width: 45px;
+    height: 45px;
+    top: 110px;
+    right: 40px;
+  }
+}
+
+@media (min-width: 1500px) {
+  img.languageOptions {
+    top: 130px;
+    right: 100px;
+  }
+}

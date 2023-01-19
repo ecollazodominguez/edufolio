@@ -3,14 +3,22 @@
 import { Navbar } from "../components/Navbar";
 import { Footer } from "../components/Footer";
 import { ProjectList } from "../components/ProjectList";
+import { LanguageButton } from "../components/LanguageButton";
 
-const projects = require("../data/projects.json");
+export const Projects = ({ language, setLanguage }) => {
+  let projects;
+  if (language == "ES") {
+    projects = require("../data/ES/projects_ES.json");
+  } else {
+    projects = require("../data/EN/projects_EN.json");
+  }
 
-export const Projects = () => {
   return (
     <main className="main-projects">
-      <Navbar />
+      <Navbar language={language} />
+      <LanguageButton language={language} setLanguage={setLanguage} />
       <img
+        className="gitIcon"
         src={require("../assets/github-icon.png")}
         alt="github icon"
         onClick={() =>
@@ -19,7 +27,7 @@ export const Projects = () => {
       ></img>
       <ProjectList projects={projects} />
       <hr />
-      <Footer />
+      <Footer language={language} />
     </main>
   );
 };

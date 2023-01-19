@@ -45,6 +45,10 @@ input {
   background-color: #fcd98c;
   border-radius: 15px;
   font-size: 20px;
+  transition: 0.2s transform;
+}
+.content > button:active {
+  transform: scale(0.95);
 }
 
 @media (min-width: 650px) {
@@ -82,16 +86,11 @@ input {
     margin-top: 1.5rem;
     font-size: 22px;
     box-shadow: 2px 2px 4px rgb(91, 91, 91);
-    transition: 0.2s transform;
   }
 
   .content > button:hover {
     cursor: pointer;
     color: rgb(255, 0, 0);
-  }
-
-  .content > button:active {
-    transform: scale(0.95);
   }
 
   fieldset > input {
