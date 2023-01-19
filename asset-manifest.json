@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4a89e148.css",
+    "main.js": "/static/js/main.475b72fc.js",
+    "static/media/plantworld.gif": "/static/media/plantworld.18cecc76aec8a87f00b4.gif",
+    "static/media/viajantes.gif": "/static/media/viajantes.d18047a76520f608dfc0.gif",
+    "static/media/octonews.gif": "/static/media/octonews.60a34d541ac48b242ba3.gif",
+    "static/media/homeimage.jpg": "/static/media/homeimage.f3b4443a30c74b9a9c01.jpg",
+    "static/media/EN_flag.png": "/static/media/EN_flag.1795214514f54a4df2b4.png",
+    "static/media/python.gif": "/static/media/python.448671f647d6ca813ca9.gif",
+    "index.html": "/index.html",
+    "static/media/linkedin-icon.webp": "/static/media/linkedin-icon.b48df82cb1ebcf8a7a57.webp",
+    "main.4a89e148.css.map": "/static/css/main.4a89e148.css.map",
+    "main.475b72fc.js.map": "/static/js/main.475b72fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a89e148.css",
+    "static/js/main.475b72fc.js"
+  ]
+}
