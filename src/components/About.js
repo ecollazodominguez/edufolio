@@ -5,7 +5,7 @@ export const About = () => {
   const navigate = useNavigate();
   return (
     <section className="about">
-      <img src={require("../aboutpict.webp")} alt="foto"></img>
+      <img src={require("../assets/homeimage.jpg")} alt="foto"></img>
       <article className="about-text">
         <h2>Hola</h2>
         <h4>Un poco de mí</h4>

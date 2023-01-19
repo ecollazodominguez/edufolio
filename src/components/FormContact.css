@@ -41,14 +41,10 @@ input {
   margin: 1rem;
   min-height: 45px;
   min-width: 125px;
-  border: 1px solid rgb(185, 86, 25);
-  background-color: #fff8cc;
+  border: 1px solid #ae7c10;
+  background-color: #fcd98c;
   border-radius: 15px;
   font-size: 20px;
-}
-.content > button:hover {
-  cursor: pointer;
-  color: rgb(255, 0, 0);
 }
 
 @media (min-width: 650px) {
@@ -85,6 +81,17 @@ input {
     border-radius: 100px;
     margin-top: 1.5rem;
     font-size: 22px;
+    box-shadow: 2px 2px 4px rgb(91, 91, 91);
+    transition: 0.2s transform;
+  }
+
+  .content > button:hover {
+    cursor: pointer;
+    color: rgb(255, 0, 0);
+  }
+
+  .content > button:active {
+    transform: scale(0.95);
   }
 
   fieldset > input {

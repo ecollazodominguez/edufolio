@@ -63,7 +63,6 @@ menu button {
   height: 90px;
   width: 90px;
   border-radius: 300px;
-
   font-weight: bold;
   font-size: 14px;
 }
@@ -91,7 +90,6 @@ menu button:nth-child(2) {
   }
   100% {
     opacity: 1;
-    transform: translateY(0px);
   }
 }
 menu button:nth-child(3) {
@@ -113,7 +111,6 @@ menu button:nth-child(3) {
   }
   100% {
     opacity: 1;
-    transform: translateY(0px);
   }
 }
 
@@ -155,10 +152,11 @@ menu button:nth-child(3) {
     height: 125px;
     width: 125px;
     font-size: 20px;
+    box-shadow: 3px 3px 5px rgb(91, 91, 91);
   }
-
   menu button:hover {
     cursor: pointer;
     color: rgb(255, 0, 0);
+    transform: scale(0.95);
   }
 }
