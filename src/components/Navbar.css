@@ -19,6 +19,7 @@ nav.header-nav {
   display: flex;
   gap: 0.5rem;
   margin-right: 1rem;
+  height: 75px;
 }
 
 header button {

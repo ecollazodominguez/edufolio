@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Octonews",
+    "subtitle": "REACT web",
+    "description": "Collaborative News Web like 'reddit' or 'meneame' where you can write your own news on differents categories.",
+    "image": "octonews.gif",
+    "link": "https://github.com/ecollazodominguez/OctoNews"
+  },
+  {
+    "title": "ViajAntes",
+    "subtitle": "JS web",
+    "description": "Urgent Flights Searcher to search flight for the next day for 1 passenger.",
+    "image": "viajantes.gif",
+    "link": "https://github.com/ecollazodominguez/ViajAntes"
+  },
+  {
+    "title": "PlantWorld",
+    "subtitle": "Android app",
+    "description": "PlantWorld is an app made in Kotlin for Android where thanks to AI you can identify plant or plant illnes through photos.",
+    "image": "plantworld.gif",
+    "link": "https://github.com/ecollazodominguez/PlantWorld"
+  },
+  {
+    "title": "MausClicker",
+    "subtitle": "Python desktop app",
+    "description": "MausClicker is an auto clicker who tracks your mouse so you can storage the coords where you clicked and make a script to automate whatever you want.",
+    "image": "python.gif",
+    "link": "https://github.com/ecollazodominguez/MausClicker"
+  },
+  {
+    "title": "DigiNaut",
+    "subtitle": "Python discord bot",
+    "description": "DigiNaut is a Discord Bot with multiple fuctions like minigames, throw a dice, show images from a folder of your PC, etc...",
+    "image": "python.gif",
+    "link": "https://github.com/ecollazodominguez/DigiNaut"
+  }
+]

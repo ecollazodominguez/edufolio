@@ -31,7 +31,7 @@ main.main-curriculum h2 {
   font-size: 34px;
 }
 
-main.main-projects > img {
+main.main-projects > img.gitIcon {
   margin: 0 auto 2rem;
   height: 90px;
   width: 250px;
