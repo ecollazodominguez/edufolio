@@ -2,7 +2,7 @@ import "./LanguageButton.css";
 
 export const LanguageButton = ({ language, setLanguage }) => {
   const language_onClick = () => {
-    if (language == "ES") {
+    if (language === "ES") {
       setLanguage("EN");
     } else {
       setLanguage("ES");
@@ -12,7 +12,7 @@ export const LanguageButton = ({ language, setLanguage }) => {
     <img
       className="languageOptions"
       src={
-        language == "ES"
+        language === "ES"
           ? require("../assets/ES_flag.png")
           : require("../assets/EN_flag.png")
       }

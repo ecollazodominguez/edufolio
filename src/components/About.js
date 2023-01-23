@@ -16,7 +16,7 @@ export const About = ({ language }) => {
 const Introduction = ({ language }) => {
   return (
     <>
-      {language == "ES" ? (
+      {language === "ES" ? (
         <>
           <h2>Hola</h2>
           <h4>Un poco de mí</h4>
@@ -63,13 +63,13 @@ const MenuButton = ({ language }) => {
   return (
     <menu className="about-menu">
       <button className="about-cv" onClick={() => navigate("/curriculum")}>
-        {language == "ES" ? "Currículum" : "Curriculum"}
+        {language === "ES" ? "Currículum" : "Curriculum"}
       </button>
       <button className="about-project" onClick={() => navigate("/projects")}>
-        {language == "ES" ? "Proyectos" : "Projects"}
+        {language === "ES" ? "Proyectos" : "Projects"}
       </button>
       <button className="about-contact" onClick={() => navigate("/contact")}>
-        {language == "ES" ? "Contactos" : "Contact"}
+        {language === "ES" ? "Contactos" : "Contact"}
       </button>
     </menu>
   );

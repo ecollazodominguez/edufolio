@@ -3,7 +3,7 @@ import "./InfoContact.css";
 export const InfoContact = ({ language }) => {
   return (
     <section className="info">
-      {language == "ES" ? (
+      {language === "ES" ? (
         <>
           <h2>Contacto</h2>
           <p>Si estás interesado aquí te dejo cómo contactarme.</p>
@@ -16,7 +16,7 @@ export const InfoContact = ({ language }) => {
       )}
 
       <article className="contact-phone">
-        <h4>{language == "ES" ? "Teléfono" : "Phone"}</h4>
+        <h4>{language === "ES" ? "Teléfono" : "Phone"}</h4>
         <p>692321415</p>
       </article>
       <article className="contact-email">

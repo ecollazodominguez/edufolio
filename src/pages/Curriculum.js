@@ -9,7 +9,7 @@ export const Curriculum = ({ language, setLanguage }) => {
   let EducationData;
   let skillsData;
 
-  if (language == "ES") {
+  if (language === "ES") {
     jobData = require("../data/ES/curriculumData/jobExperience_ES.json");
     EducationData = require("../data/ES/curriculumData/education_ES.json");
     skillsData = require("../data/ES/curriculumData/skills_ES.json");
@@ -26,18 +26,18 @@ export const Curriculum = ({ language, setLanguage }) => {
       <h2>Curriculum</h2>
       <ExperienceSection
         title={
-          language == "ES" ? "Experiencia laboral" : "Professional Experience"
+          language === "ES" ? "Experiencia laboral" : "Professional Experience"
         }
         content={jobData}
       />
       <hr />
       <ExperienceSection
-        title={language == "ES" ? "Educación" : "Education"}
+        title={language === "ES" ? "Educación" : "Education"}
         content={EducationData}
       />
       <hr />
       <SkillsSection
-        title={language == "ES" ? "Habilidades" : "Skills"}
+        title={language === "ES" ? "Habilidades" : "Skills"}
         content={skillsData}
       />
       <hr />
