@@ -7,7 +7,7 @@ import { LanguageButton } from "../components/LanguageButton";
 
 export const Projects = ({ language, setLanguage }) => {
   let projects;
-  if (language == "ES") {
+  if (language === "ES") {
     projects = require("../data/ES/projects_ES.json");
   } else {
     projects = require("../data/EN/projects_EN.json");

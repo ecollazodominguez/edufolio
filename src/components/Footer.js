@@ -4,7 +4,7 @@ export const Footer = ({ language }) => {
   return (
     <footer className="index">
       <article className="footer-phone">
-        <h4>{language == "ES" ? "Teléfono" : "Phone"}</h4>
+        <h4>{language === "ES" ? "Teléfono" : "Phone"}</h4>
         <p>692321415</p>
       </article>
       <article className="footer-email">
@@ -12,7 +12,7 @@ export const Footer = ({ language }) => {
         <a href="mailto:ecollazodominguez@gmail.com">ecollazodominguez</a>
       </article>
       <article className="footer-follow">
-        <h4>{language == "ES" ? "Sígueme" : "Follow"}</h4>
+        <h4>{language === "ES" ? "Sígueme" : "Follow"}</h4>
         <img
           src={require("../assets/linkedin-icon.webp")}
           alt="linkedin icon"
