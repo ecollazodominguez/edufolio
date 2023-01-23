@@ -51,6 +51,53 @@ input {
   transform: scale(0.95);
 }
 
+/* Popup notification email */
+
+section.popup {
+  display: flex;
+  place-content: center;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+}
+
+.popup article {
+  margin-top: 6.5rem;
+  opacity: 0;
+  animation-name: appearPopup;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes appearPopup {
+  0% {
+    transform: translateY(-15px);
+  }
+  15% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.popup p {
+  background-color: #fcd98c;
+  padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+  border-radius: 5px;
+  font-size: 18px;
+  border: 1px solid rgb(181, 116, 76);
+  box-shadow: 0 1px 10px 1px rgb(223, 96, 18);
+}
+
 @media (min-width: 650px) {
   form.contact-form {
     border: none;
@@ -96,5 +143,12 @@ input {
   fieldset > input {
     width: 175px;
     font-size: 18px;
+  }
+
+  /* Popup notification email */
+
+  .popup p {
+    font-size: 22px;
+    padding: 0.3rem 4rem 0.3rem 4rem;
   }
 }
