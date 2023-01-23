@@ -8,13 +8,26 @@ export const FormContact = ({ language }) => {
   //We use EmailJS API to send the mail to myself
   const sendEmail = async (e) => {
     e.preventDefault(); // prevents the page from reloading when you hit “Send”
-
-    await emailjs.sendForm(
-      "service_fmg8jae",
-      "template_284npt8",
-      form.current,
-      "Zdyfn-Af_cgaZPmUu"
-    );
+    try {
+      await emailjs.sendForm(
+        "service_fmg8jae",
+        "template_284npt8",
+        form.current,
+        "Zdyfn-Af_cgaZPmUu"
+      );
+      //Temporal fix
+      if (language == "ES") {
+        alert("El email ha sido enviado con éxito");
+      } else {
+        alert("Email sent with success.");
+      }
+    } catch (error) {
+      if (language == "ES") {
+        alert("Algo ha ido mal, inténtalo de nuevo más tarde.");
+      } else {
+        alert("Something went wrong. Try again later.");
+      }
+    }
   };
 
   return (
