@@ -4,12 +4,11 @@ import { Home } from "./pages/Home";
 import { Curriculum } from "./pages/Curriculum";
 import { Contact } from "./pages/Contact";
 import { Projects } from "./pages/Projects";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
+import { useLanguage } from "./hooks/useLanguage";
 
 function App() {
-  const [language, setLanguage] = useState(
-    localStorage.getItem("language") ? localStorage.getItem("language") : "ES"
-  );
+  const [language, setLanguage] = useLanguage();
 
   useEffect(() => {
     localStorage.setItem("language", language);
