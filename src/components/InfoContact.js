@@ -17,7 +17,7 @@ export const InfoContact = ({ language }) => {
 
       <article className="contact-phone">
         <h4>{language === "ES" ? "Teléfono" : "Phone"}</h4>
-        <p>692321415</p>
+        <p>697891945</p>
       </article>
       <article className="contact-email">
         <h4>Email</h4>
