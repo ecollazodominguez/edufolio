@@ -4,8 +4,9 @@ import { Home } from "./pages/Home";
 import { Curriculum } from "./pages/Curriculum";
 import { Contact } from "./pages/Contact";
 import { Projects } from "./pages/Projects";
-import { useEffect } from "react";
+
 import { useLanguage } from "./hooks/useLanguage";
+import { useEffect } from "react";
 
 function App() {
   const [language, setLanguage] = useLanguage();

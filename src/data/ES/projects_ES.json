@@ -7,6 +7,13 @@
     "link": "https://github.com/ecollazodominguez/OctoNews"
   },
   {
+    "title": "Ragnarok Survivor",
+    "subtitle": "GODOT Videojuego",
+    "description": "Videojuego de género bulletheaven realizado en el motor GODOT",
+    "image": "Rsurvivor.gif",
+    "link": "https://github.com/ecollazodominguez/Ragnarok-Survivors-Test"
+  },
+  {
     "title": "ViajAntes",
     "subtitle": "JS web",
     "description": "Buscador de vuelos urgentes para el día siguiente para 1 persona.",

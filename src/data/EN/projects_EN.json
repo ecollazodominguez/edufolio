@@ -7,6 +7,13 @@
     "link": "https://github.com/ecollazodominguez/OctoNews"
   },
   {
+    "title": "Ragnarok Survivor",
+    "subtitle": "GODOT Videogame",
+    "description": "Bulletheaven videogame made in GODOT engine",
+    "image": "Rsurvivor.gif",
+    "link": "https://github.com/ecollazodominguez/Ragnarok-Survivors-Test"
+  },
+  {
     "title": "ViajAntes",
     "subtitle": "JS web",
     "description": "Urgent Flights Searcher to search flight for the next day for 1 passenger.",
